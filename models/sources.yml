@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: silverscreen
+    database: SILVERSCREEN
+    schema: PUBLIC
+    tables:
+      - name: INVOICES
+      - name: MOVIE_CATALOGUE
+      - name: NJ_001
+      - name: NJ_002
+      - name: NJ_003
