@@ -7,7 +7,7 @@ with movie_costs as (
         studio,
         month,
         location_id,
-        total_invoice_sum as rental_cost
+        rental_cost
     from {{ ref('int_movie_costs') }}
 
 ),
